@@ -10,7 +10,7 @@ src/
 ├── controllers/  # Lógica de negócios e controle das rotas
 ├── models/       # Modelos e manipulação de dados
 ├── routes/       # Definição de rotas da API
-├── server.js     # Ponto de entrada da aplicação
+└── server.js     # Ponto de entrada da aplicação
 
 
 ## 🚀 Tecnologias Utilizadas
