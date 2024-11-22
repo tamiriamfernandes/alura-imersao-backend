@@ -8,10 +8,12 @@ A estrutura do projeto foi organizada para facilitar a manutenção e escalabili
 
 src/
 ├── controllers/  # Lógica de negócios e controle das rotas
-├── models/       # Modelos e manipulação de dados
-├── routes/       # Definição de rotas da API
-└── server.js     # Ponto de entrada da aplicação
 
+├── models/       # Modelos e manipulação de dados
+
+├── routes/       # Definição de rotas da API
+
+└── server.js     # Ponto de entrada da aplicação
 
 ## 🚀 Tecnologias Utilizadas
 
