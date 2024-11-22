@@ -6,7 +6,15 @@ Este é um projeto desenvolvido durante a Imersão de Back-end da Alura. O objet
 
 A estrutura do projeto foi organizada para facilitar a manutenção e escalabilidade:
 
-src/ ├── controllers/ # Lógica de negócios e controle das rotas ├── models/ # Modelos e manipulação de dados ├── routes/ # Definição de rotas da API └── server.js # Ponto de entrada da aplicação
+src/
+
+├── controllers/  # Lógica de negócios e controle das rotas
+
+├── models/       # Modelos e manipulação de dados
+
+├── routes/       # Definição de rotas da API
+
+└── server.js     # Ponto de entrada da aplicação
 
 ## 🚀 Tecnologias Utilizadas
 
