@@ -25,4 +25,20 @@ src/
 
 ## 📚 Rotas da API
 
-- **GET api/posts**: Rota trazer todos os posts.
+Abaixo estão as rotas disponíveis nesta API:
+
+### **Posts**
+- `GET /api/posts`  
+  Retorna todos os posts cadastrados.  
+
+- `POST /api/posts`  
+  Cria um novo post.  
+
+- `POST /api/posts/google-gemini`  
+  Cria um post utilizando a integração com o Google Gemini.  
+  **Parâmetro esperado**: Upload de uma imagem no campo `image`.
+
+### **Upload**
+- `POST /api/upload`  
+  Realiza o upload de uma imagem.  
+  **Parâmetro esperado**: Upload de uma imagem no campo `image`.
