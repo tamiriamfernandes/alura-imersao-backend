@@ -1,3 +1,4 @@
+import { ObjectId } from 'mongodb';
 import connectDb from './../config/dbConfig.js'
 import dotenv from 'dotenv';
 dotenv.config();
@@ -14,4 +15,11 @@ export async function create(newPost){
     const db = connection.db('imersao-instabytes');
     const collectionPost = db.collection('posts');
     return collectionPost.insertOne(newPost);
+};
+
+export async function update(id, post){
+    const db = connection.db('imersao-instabytes');
+    const collectionPost = db.collection('posts');
+    const objId = ObjectId.createFromHexString(id);
+    return collectionPost.updateOne({_id: new ObjectId(objId)}, {$set: post});
 };
